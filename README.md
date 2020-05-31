@@ -12,3 +12,6 @@ We are proud of attending our first hackathon and putting what we've learnt to b
 We learnt more than we imagined.We learnt how to use Machine learning in mobile apps,we learnt to write code for UI,we learnt to test apps before launch, and most importantly we learnt that participating in hackathons is a really nice way to learn skills!
 ## What's next for MovieMagic
 We are thinking of expanding this idea to songs and also books.There was also an idea to include even precise ML model but the data was very very really huge that our hardware we have takes 3 days to train.We plan to include the high accuracy model and also include genre filters for the movie recommender.There's no way we are leaving this here!
+
+## Demo
+whatch the demo of the video [Here](https://www.youtube.com/watch?v=j7RcHVm0KMA&feature=youtu.be)
