@@ -15,3 +15,10 @@ We are thinking of expanding this idea to songs and also books.There was also an
 
 ## Demo
 Watch the demo of the video [Here](https://www.youtube.com/watch?v=j7RcHVm0KMA&feature=youtu.be)
+
+### How to run the example?
+
+1. Clone this repo
+1. Open shell window and navigate to project folder
+1. Run `pod install`
+1. Open `MLH Rookie hacks.xcworkspace` and run the project on selected device or simulator
