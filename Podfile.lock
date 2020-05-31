@@ -1,0 +1,24 @@
+PODS:
+  - CSV.swift (2.4.3)
+  - HCSStarRatingView (1.5)
+  - SwiftCSV (0.5.6)
+
+DEPENDENCIES:
+  - CSV.swift (~> 2.4.3)
+  - HCSStarRatingView (~> 1.5)
+  - SwiftCSV
+
+SPEC REPOS:
+  trunk:
+    - CSV.swift
+    - HCSStarRatingView
+    - SwiftCSV
+
+SPEC CHECKSUMS:
+  CSV.swift: d38741b349c067b4a6db42237cb0e2974d21ccac
+  HCSStarRatingView: 1d18f79654735514cd6f00e6d90e38cb6320dc31
+  SwiftCSV: efb4a15dd7f2f1212b3d6986f97a3369ff6c5100
+
+PODFILE CHECKSUM: 4e9b8ed59abe20ecd68ea1a07d70c3ab91160e64
+
+COCOAPODS: 1.8.3

@@ -1,0 +1,495 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0E721046835322A6CC23AB36 /* Pods_MLH_Rookie_hacks.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1FC2DB1D243B34DEA1FEF32 /* Pods_MLH_Rookie_hacks.framework */; };
+		871A51BB248385560026D2E8 /* MovieRecommender.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 871A51BA248385560026D2E8 /* MovieRecommender.mlmodel */; };
+		87384C02248391E2002C51F8 /* CenterViewFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87384C01248391E2002C51F8 /* CenterViewFlowLayout.swift */; };
+		87384C0E24839575002C51F8 /* OpenSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 87384C0424839574002C51F8 /* OpenSans-Regular.ttf */; };
+		87384C0F24839575002C51F8 /* OpenSans-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 87384C0524839574002C51F8 /* OpenSans-SemiBoldItalic.ttf */; };
+		87384C1024839575002C51F8 /* OpenSans-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 87384C0624839574002C51F8 /* OpenSans-Light.ttf */; };
+		87384C1124839575002C51F8 /* OpenSans-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 87384C0724839574002C51F8 /* OpenSans-LightItalic.ttf */; };
+		87384C1224839575002C51F8 /* OpenSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 87384C0824839574002C51F8 /* OpenSans-Bold.ttf */; };
+		87384C1324839575002C51F8 /* OpenSans-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 87384C0924839574002C51F8 /* OpenSans-Italic.ttf */; };
+		87384C1424839575002C51F8 /* OpenSans-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 87384C0A24839574002C51F8 /* OpenSans-ExtraBoldItalic.ttf */; };
+		87384C1524839575002C51F8 /* OpenSans-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 87384C0B24839574002C51F8 /* OpenSans-ExtraBold.ttf */; };
+		87384C1624839575002C51F8 /* OpenSans-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 87384C0C24839574002C51F8 /* OpenSans-BoldItalic.ttf */; };
+		87384C1724839575002C51F8 /* OpenSans-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 87384C0D24839575002C51F8 /* OpenSans-SemiBold.ttf */; };
+		87384C1924839995002C51F8 /* MovieRecommendationsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87384C1824839995002C51F8 /* MovieRecommendationsVC.swift */; };
+		87384C1B24839C06002C51F8 /* PredictionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87384C1A24839C06002C51F8 /* PredictionCell.swift */; };
+		87384C1D2483A6AC002C51F8 /* movies.csv in Resources */ = {isa = PBXBuildFile; fileRef = 87384C1C2483A6AC002C51F8 /* movies.csv */; };
+		87C4BA782482BFAB009F23BA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C4BA772482BFAB009F23BA /* AppDelegate.swift */; };
+		87C4BA7A2482BFAB009F23BA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C4BA792482BFAB009F23BA /* SceneDelegate.swift */; };
+		87C4BA7C2482BFAB009F23BA /* MovieQuestionsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C4BA7B2482BFAB009F23BA /* MovieQuestionsVC.swift */; };
+		87C4BA7F2482BFAB009F23BA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87C4BA7D2482BFAB009F23BA /* Main.storyboard */; };
+		87C4BA812482BFB3009F23BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87C4BA802482BFB3009F23BA /* Assets.xcassets */; };
+		87C4BA842482BFB3009F23BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87C4BA822482BFB3009F23BA /* LaunchScreen.storyboard */; };
+		87C4BA912482CDC1009F23BA /* ShadowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C4BA902482CDC0009F23BA /* ShadowView.swift */; };
+		87CFF1412483C44300B5DBC5 /* MoviesDataset.json in Resources */ = {isa = PBXBuildFile; fileRef = 87CFF1402483C44300B5DBC5 /* MoviesDataset.json */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5B7C91C6730144A77CEB774F /* Pods-MLH Rookie hacks.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MLH Rookie hacks.release.xcconfig"; path = "Target Support Files/Pods-MLH Rookie hacks/Pods-MLH Rookie hacks.release.xcconfig"; sourceTree = "<group>"; };
+		871A51BA248385560026D2E8 /* MovieRecommender.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = MovieRecommender.mlmodel; sourceTree = "<group>"; };
+		87384C01248391E2002C51F8 /* CenterViewFlowLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CenterViewFlowLayout.swift; sourceTree = "<group>"; };
+		87384C0424839574002C51F8 /* OpenSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Regular.ttf"; sourceTree = "<group>"; };
+		87384C0524839574002C51F8 /* OpenSans-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		87384C0624839574002C51F8 /* OpenSans-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Light.ttf"; sourceTree = "<group>"; };
+		87384C0724839574002C51F8 /* OpenSans-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-LightItalic.ttf"; sourceTree = "<group>"; };
+		87384C0824839574002C51F8 /* OpenSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Bold.ttf"; sourceTree = "<group>"; };
+		87384C0924839574002C51F8 /* OpenSans-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Italic.ttf"; sourceTree = "<group>"; };
+		87384C0A24839574002C51F8 /* OpenSans-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		87384C0B24839574002C51F8 /* OpenSans-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-ExtraBold.ttf"; sourceTree = "<group>"; };
+		87384C0C24839574002C51F8 /* OpenSans-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-BoldItalic.ttf"; sourceTree = "<group>"; };
+		87384C0D24839575002C51F8 /* OpenSans-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-SemiBold.ttf"; sourceTree = "<group>"; };
+		87384C1824839995002C51F8 /* MovieRecommendationsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieRecommendationsVC.swift; sourceTree = "<group>"; };
+		87384C1A24839C06002C51F8 /* PredictionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PredictionCell.swift; sourceTree = "<group>"; };
+		87384C1C2483A6AC002C51F8 /* movies.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = movies.csv; sourceTree = "<group>"; };
+		87C4BA742482BFAB009F23BA /* IDK.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IDK.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		87C4BA772482BFAB009F23BA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		87C4BA792482BFAB009F23BA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		87C4BA7B2482BFAB009F23BA /* MovieQuestionsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieQuestionsVC.swift; sourceTree = "<group>"; };
+		87C4BA7E2482BFAB009F23BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		87C4BA802482BFB3009F23BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		87C4BA832482BFB3009F23BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		87C4BA852482BFB3009F23BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		87C4BA902482CDC0009F23BA /* ShadowView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShadowView.swift; sourceTree = "<group>"; };
+		87CFF1402483C44300B5DBC5 /* MoviesDataset.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = MoviesDataset.json; sourceTree = "<group>"; };
+		D1FC2DB1D243B34DEA1FEF32 /* Pods_MLH_Rookie_hacks.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MLH_Rookie_hacks.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8E2B320FFCE597E7103A50C /* Pods-MLH Rookie hacks.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MLH Rookie hacks.debug.xcconfig"; path = "Target Support Files/Pods-MLH Rookie hacks/Pods-MLH Rookie hacks.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		87C4BA712482BFAB009F23BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E721046835322A6CC23AB36 /* Pods_MLH_Rookie_hacks.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		27DAFBBEB3F3F5254C0E1876 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D1FC2DB1D243B34DEA1FEF32 /* Pods_MLH_Rookie_hacks.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3689E51B3BF1468688F397E8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D8E2B320FFCE597E7103A50C /* Pods-MLH Rookie hacks.debug.xcconfig */,
+				5B7C91C6730144A77CEB774F /* Pods-MLH Rookie hacks.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		87384C0324839544002C51F8 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				87384C0824839574002C51F8 /* OpenSans-Bold.ttf */,
+				87384C0C24839574002C51F8 /* OpenSans-BoldItalic.ttf */,
+				87384C0B24839574002C51F8 /* OpenSans-ExtraBold.ttf */,
+				87384C0A24839574002C51F8 /* OpenSans-ExtraBoldItalic.ttf */,
+				87384C0924839574002C51F8 /* OpenSans-Italic.ttf */,
+				87384C0624839574002C51F8 /* OpenSans-Light.ttf */,
+				87384C0724839574002C51F8 /* OpenSans-LightItalic.ttf */,
+				87384C0424839574002C51F8 /* OpenSans-Regular.ttf */,
+				87384C0D24839575002C51F8 /* OpenSans-SemiBold.ttf */,
+				87384C0524839574002C51F8 /* OpenSans-SemiBoldItalic.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		87C4BA6B2482BFAB009F23BA = {
+			isa = PBXGroup;
+			children = (
+				87C4BA762482BFAB009F23BA /* MLH Rookie hacks */,
+				87384C0324839544002C51F8 /* Fonts */,
+				87C4BA752482BFAB009F23BA /* Products */,
+				3689E51B3BF1468688F397E8 /* Pods */,
+				27DAFBBEB3F3F5254C0E1876 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		87C4BA752482BFAB009F23BA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				87C4BA742482BFAB009F23BA /* IDK.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		87C4BA762482BFAB009F23BA /* MLH Rookie hacks */ = {
+			isa = PBXGroup;
+			children = (
+				87CFF1402483C44300B5DBC5 /* MoviesDataset.json */,
+				87384C1C2483A6AC002C51F8 /* movies.csv */,
+				87C4BA772482BFAB009F23BA /* AppDelegate.swift */,
+				871A51BA248385560026D2E8 /* MovieRecommender.mlmodel */,
+				87C4BA792482BFAB009F23BA /* SceneDelegate.swift */,
+				87C4BA7B2482BFAB009F23BA /* MovieQuestionsVC.swift */,
+				87384C1824839995002C51F8 /* MovieRecommendationsVC.swift */,
+				87C4BA7D2482BFAB009F23BA /* Main.storyboard */,
+				87384C1A24839C06002C51F8 /* PredictionCell.swift */,
+				87C4BA802482BFB3009F23BA /* Assets.xcassets */,
+				87C4BA822482BFB3009F23BA /* LaunchScreen.storyboard */,
+				87C4BA852482BFB3009F23BA /* Info.plist */,
+				87C4BA8B2482C5AC009F23BA /* Custom Views */,
+			);
+			path = "MLH Rookie hacks";
+			sourceTree = "<group>";
+		};
+		87C4BA8B2482C5AC009F23BA /* Custom Views */ = {
+			isa = PBXGroup;
+			children = (
+				87C4BA902482CDC0009F23BA /* ShadowView.swift */,
+				87384C01248391E2002C51F8 /* CenterViewFlowLayout.swift */,
+			);
+			path = "Custom Views";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		87C4BA732482BFAB009F23BA /* MLH Rookie hacks */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87C4BA882482BFB3009F23BA /* Build configuration list for PBXNativeTarget "MLH Rookie hacks" */;
+			buildPhases = (
+				FB5585A63117EAFAF10D04C5 /* [CP] Check Pods Manifest.lock */,
+				87C4BA702482BFAB009F23BA /* Sources */,
+				87C4BA712482BFAB009F23BA /* Frameworks */,
+				87C4BA722482BFAB009F23BA /* Resources */,
+				6241D39A0048C75CAAE03061 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MLH Rookie hacks";
+			productName = "MLH Rookie hacks";
+			productReference = 87C4BA742482BFAB009F23BA /* IDK.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		87C4BA6C2482BFAB009F23BA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = "phani srikar";
+				TargetAttributes = {
+					87C4BA732482BFAB009F23BA = {
+						CreatedOnToolsVersion = 11.4;
+					};
+				};
+			};
+			buildConfigurationList = 87C4BA6F2482BFAB009F23BA /* Build configuration list for PBXProject "MLH Rookie hacks" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 87C4BA6B2482BFAB009F23BA;
+			productRefGroup = 87C4BA752482BFAB009F23BA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				87C4BA732482BFAB009F23BA /* MLH Rookie hacks */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		87C4BA722482BFAB009F23BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87384C1324839575002C51F8 /* OpenSans-Italic.ttf in Resources */,
+				87384C1D2483A6AC002C51F8 /* movies.csv in Resources */,
+				87384C1524839575002C51F8 /* OpenSans-ExtraBold.ttf in Resources */,
+				87384C1024839575002C51F8 /* OpenSans-Light.ttf in Resources */,
+				87C4BA842482BFB3009F23BA /* LaunchScreen.storyboard in Resources */,
+				87384C1224839575002C51F8 /* OpenSans-Bold.ttf in Resources */,
+				87384C1124839575002C51F8 /* OpenSans-LightItalic.ttf in Resources */,
+				87CFF1412483C44300B5DBC5 /* MoviesDataset.json in Resources */,
+				87384C1724839575002C51F8 /* OpenSans-SemiBold.ttf in Resources */,
+				87384C1624839575002C51F8 /* OpenSans-BoldItalic.ttf in Resources */,
+				87C4BA812482BFB3009F23BA /* Assets.xcassets in Resources */,
+				87384C0E24839575002C51F8 /* OpenSans-Regular.ttf in Resources */,
+				87384C1424839575002C51F8 /* OpenSans-ExtraBoldItalic.ttf in Resources */,
+				87C4BA7F2482BFAB009F23BA /* Main.storyboard in Resources */,
+				87384C0F24839575002C51F8 /* OpenSans-SemiBoldItalic.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6241D39A0048C75CAAE03061 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MLH Rookie hacks/Pods-MLH Rookie hacks-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MLH Rookie hacks/Pods-MLH Rookie hacks-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MLH Rookie hacks/Pods-MLH Rookie hacks-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FB5585A63117EAFAF10D04C5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MLH Rookie hacks-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		87C4BA702482BFAB009F23BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87384C1B24839C06002C51F8 /* PredictionCell.swift in Sources */,
+				87C4BA7C2482BFAB009F23BA /* MovieQuestionsVC.swift in Sources */,
+				871A51BB248385560026D2E8 /* MovieRecommender.mlmodel in Sources */,
+				87C4BA782482BFAB009F23BA /* AppDelegate.swift in Sources */,
+				87C4BA7A2482BFAB009F23BA /* SceneDelegate.swift in Sources */,
+				87384C1924839995002C51F8 /* MovieRecommendationsVC.swift in Sources */,
+				87C4BA912482CDC1009F23BA /* ShadowView.swift in Sources */,
+				87384C02248391E2002C51F8 /* CenterViewFlowLayout.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		87C4BA7D2482BFAB009F23BA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				87C4BA7E2482BFAB009F23BA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		87C4BA822482BFB3009F23BA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				87C4BA832482BFB3009F23BA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		87C4BA862482BFB3009F23BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		87C4BA872482BFB3009F23BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		87C4BA892482BFB3009F23BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D8E2B320FFCE597E7103A50C /* Pods-MLH Rookie hacks.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "MLH Rookie hacks/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.PS.MLH-Rookie-hacks";
+				PRODUCT_NAME = IDK;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		87C4BA8A2482BFB3009F23BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B7C91C6730144A77CEB774F /* Pods-MLH Rookie hacks.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "MLH Rookie hacks/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.PS.MLH-Rookie-hacks";
+				PRODUCT_NAME = IDK;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		87C4BA6F2482BFAB009F23BA /* Build configuration list for PBXProject "MLH Rookie hacks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87C4BA862482BFB3009F23BA /* Debug */,
+				87C4BA872482BFB3009F23BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		87C4BA882482BFB3009F23BA /* Build configuration list for PBXNativeTarget "MLH Rookie hacks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87C4BA892482BFB3009F23BA /* Debug */,
+				87C4BA8A2482BFB3009F23BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 87C4BA6C2482BFAB009F23BA /* Project object */;
+}
