@@ -7,8 +7,7 @@ target 'MLH Rookie hacks' do
 
   # Pods for MLH Rookie hacks
 pod 'HCSStarRatingView', '~> 1.5'
-pod "SwiftCSV"
-pod 'CSV.swift', '~> 2.4.3'
+pod "Magnetic"
 
 
 end
