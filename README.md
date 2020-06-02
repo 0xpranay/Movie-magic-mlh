@@ -14,6 +14,13 @@ We learnt more than we imagined.We learnt how to use Machine learning in mobile 
 We are thinking of expanding this idea to songs and also books.There was also an idea to include even precise ML model but the data was very very really huge that our hardware we have takes 3 days to train.We plan to include the high accuracy model and also include genre filters for the movie recommender.There's no way we are leaving this here!
 
 ## Demo
+<p float="left">
+  <img src="https://github.com/Pikachuxxxx/Movie-magic-mlh/blob/patch-2/Demo%20SS/1.png" height="400" />
+  <img src="https://github.com/Pikachuxxxx/Movie-magic-mlh/blob/patch-2/Demo%20SS/2.png" height="400" />
+  <img src="https://github.com/Pikachuxxxx/Movie-magic-mlh/blob/patch-2/Demo%20SS/3.png" height="400" />
+  <img src="https://github.com/Pikachuxxxx/Movie-magic-mlh/blob/patch-2/Demo%20SS/4.png" height="400" />
+</p>
+
 Watch the demo of the video [Here](https://www.youtube.com/watch?v=j7RcHVm0KMA&feature=youtu.be)
 
 ### How to run the example?
