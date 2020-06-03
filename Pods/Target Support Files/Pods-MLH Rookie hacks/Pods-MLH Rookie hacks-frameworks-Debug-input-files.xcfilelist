@@ -1,4 +1,3 @@
 ${PODS_ROOT}/Target Support Files/Pods-MLH Rookie hacks/Pods-MLH Rookie hacks-frameworks.sh
-${BUILT_PRODUCTS_DIR}/CSV.swift/CSV.framework
 ${BUILT_PRODUCTS_DIR}/HCSStarRatingView/HCSStarRatingView.framework
-${BUILT_PRODUCTS_DIR}/SwiftCSV/SwiftCSV.framework
+${BUILT_PRODUCTS_DIR}/Magnetic/Magnetic.framework

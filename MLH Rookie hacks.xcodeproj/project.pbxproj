@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0E721046835322A6CC23AB36 /* Pods_MLH_Rookie_hacks.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1FC2DB1D243B34DEA1FEF32 /* Pods_MLH_Rookie_hacks.framework */; };
+		4EE24EC80D9963C198C81C60 /* Pods_MLH_Rookie_hacks.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F38810353486C069A94DE0F /* Pods_MLH_Rookie_hacks.framework */; };
 		871A51BB248385560026D2E8 /* MovieRecommender.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 871A51BA248385560026D2E8 /* MovieRecommender.mlmodel */; };
 		87384C02248391E2002C51F8 /* CenterViewFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87384C01248391E2002C51F8 /* CenterViewFlowLayout.swift */; };
 		87384C0E24839575002C51F8 /* OpenSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 87384C0424839574002C51F8 /* OpenSans-Regular.ttf */; };
@@ -21,8 +21,9 @@
 		87384C1624839575002C51F8 /* OpenSans-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 87384C0C24839574002C51F8 /* OpenSans-BoldItalic.ttf */; };
 		87384C1724839575002C51F8 /* OpenSans-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 87384C0D24839575002C51F8 /* OpenSans-SemiBold.ttf */; };
 		87384C1924839995002C51F8 /* MovieRecommendationsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87384C1824839995002C51F8 /* MovieRecommendationsVC.swift */; };
-		87384C1B24839C06002C51F8 /* PredictionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87384C1A24839C06002C51F8 /* PredictionCell.swift */; };
-		87384C1D2483A6AC002C51F8 /* movies.csv in Resources */ = {isa = PBXBuildFile; fileRef = 87384C1C2483A6AC002C51F8 /* movies.csv */; };
+		87384C1B24839C06002C51F8 /* MoviePredictionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87384C1A24839C06002C51F8 /* MoviePredictionCell.swift */; };
+		8784BCE824853C2300F57920 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8784BCE724853C2300F57920 /* Extensions.swift */; };
+		8784BCEA24853DF500F57920 /* GenreSelectionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8784BCE924853DF500F57920 /* GenreSelectionVC.swift */; };
 		87C4BA782482BFAB009F23BA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C4BA772482BFAB009F23BA /* AppDelegate.swift */; };
 		87C4BA7A2482BFAB009F23BA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C4BA792482BFAB009F23BA /* SceneDelegate.swift */; };
 		87C4BA7C2482BFAB009F23BA /* MovieQuestionsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C4BA7B2482BFAB009F23BA /* MovieQuestionsVC.swift */; };
@@ -31,10 +32,13 @@
 		87C4BA842482BFB3009F23BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87C4BA822482BFB3009F23BA /* LaunchScreen.storyboard */; };
 		87C4BA912482CDC1009F23BA /* ShadowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C4BA902482CDC0009F23BA /* ShadowView.swift */; };
 		87CFF1412483C44300B5DBC5 /* MoviesDataset.json in Resources */ = {isa = PBXBuildFile; fileRef = 87CFF1402483C44300B5DBC5 /* MoviesDataset.json */; };
+		87D3BDAB24861F7800D3E662 /* SegueIdentifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87D3BDAA24861F7800D3E662 /* SegueIdentifiers.swift */; };
+		87DE415824853871009B9D51 /* GenreVsSurpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87DE415724853871009B9D51 /* GenreVsSurpVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		5B7C91C6730144A77CEB774F /* Pods-MLH Rookie hacks.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MLH Rookie hacks.release.xcconfig"; path = "Target Support Files/Pods-MLH Rookie hacks/Pods-MLH Rookie hacks.release.xcconfig"; sourceTree = "<group>"; };
+		24156DACFF175B97E1571297 /* Pods-MLH Rookie hacks.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MLH Rookie hacks.debug.xcconfig"; path = "Target Support Files/Pods-MLH Rookie hacks/Pods-MLH Rookie hacks.debug.xcconfig"; sourceTree = "<group>"; };
+		2F38810353486C069A94DE0F /* Pods_MLH_Rookie_hacks.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MLH_Rookie_hacks.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		871A51BA248385560026D2E8 /* MovieRecommender.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = MovieRecommender.mlmodel; sourceTree = "<group>"; };
 		87384C01248391E2002C51F8 /* CenterViewFlowLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CenterViewFlowLayout.swift; sourceTree = "<group>"; };
 		87384C0424839574002C51F8 /* OpenSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Regular.ttf"; sourceTree = "<group>"; };
@@ -48,9 +52,10 @@
 		87384C0C24839574002C51F8 /* OpenSans-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-BoldItalic.ttf"; sourceTree = "<group>"; };
 		87384C0D24839575002C51F8 /* OpenSans-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-SemiBold.ttf"; sourceTree = "<group>"; };
 		87384C1824839995002C51F8 /* MovieRecommendationsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieRecommendationsVC.swift; sourceTree = "<group>"; };
-		87384C1A24839C06002C51F8 /* PredictionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PredictionCell.swift; sourceTree = "<group>"; };
-		87384C1C2483A6AC002C51F8 /* movies.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = movies.csv; sourceTree = "<group>"; };
-		87C4BA742482BFAB009F23BA /* IDK.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IDK.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		87384C1A24839C06002C51F8 /* MoviePredictionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviePredictionCell.swift; sourceTree = "<group>"; };
+		8784BCE724853C2300F57920 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		8784BCE924853DF500F57920 /* GenreSelectionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenreSelectionVC.swift; sourceTree = "<group>"; };
+		87C4BA742482BFAB009F23BA /* MovieMagic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MovieMagic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		87C4BA772482BFAB009F23BA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		87C4BA792482BFAB009F23BA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		87C4BA7B2482BFAB009F23BA /* MovieQuestionsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieQuestionsVC.swift; sourceTree = "<group>"; };
@@ -60,8 +65,9 @@
 		87C4BA852482BFB3009F23BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		87C4BA902482CDC0009F23BA /* ShadowView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShadowView.swift; sourceTree = "<group>"; };
 		87CFF1402483C44300B5DBC5 /* MoviesDataset.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = MoviesDataset.json; sourceTree = "<group>"; };
-		D1FC2DB1D243B34DEA1FEF32 /* Pods_MLH_Rookie_hacks.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MLH_Rookie_hacks.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D8E2B320FFCE597E7103A50C /* Pods-MLH Rookie hacks.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MLH Rookie hacks.debug.xcconfig"; path = "Target Support Files/Pods-MLH Rookie hacks/Pods-MLH Rookie hacks.debug.xcconfig"; sourceTree = "<group>"; };
+		87D3BDAA24861F7800D3E662 /* SegueIdentifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegueIdentifiers.swift; sourceTree = "<group>"; };
+		87DE415724853871009B9D51 /* GenreVsSurpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenreVsSurpVC.swift; sourceTree = "<group>"; };
+		CC03FE976EEF855D249C0A8A /* Pods-MLH Rookie hacks.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MLH Rookie hacks.release.xcconfig"; path = "Target Support Files/Pods-MLH Rookie hacks/Pods-MLH Rookie hacks.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,28 +75,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0E721046835322A6CC23AB36 /* Pods_MLH_Rookie_hacks.framework in Frameworks */,
+				4EE24EC80D9963C198C81C60 /* Pods_MLH_Rookie_hacks.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		27DAFBBEB3F3F5254C0E1876 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				D1FC2DB1D243B34DEA1FEF32 /* Pods_MLH_Rookie_hacks.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		3689E51B3BF1468688F397E8 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				D8E2B320FFCE597E7103A50C /* Pods-MLH Rookie hacks.debug.xcconfig */,
-				5B7C91C6730144A77CEB774F /* Pods-MLH Rookie hacks.release.xcconfig */,
+				24156DACFF175B97E1571297 /* Pods-MLH Rookie hacks.debug.xcconfig */,
+				CC03FE976EEF855D249C0A8A /* Pods-MLH Rookie hacks.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		4B2A17D924E0A409113B5F20 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2F38810353486C069A94DE0F /* Pods_MLH_Rookie_hacks.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		87384C0324839544002C51F8 /* Fonts */ = {
@@ -117,14 +123,14 @@
 				87384C0324839544002C51F8 /* Fonts */,
 				87C4BA752482BFAB009F23BA /* Products */,
 				3689E51B3BF1468688F397E8 /* Pods */,
-				27DAFBBEB3F3F5254C0E1876 /* Frameworks */,
+				4B2A17D924E0A409113B5F20 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		87C4BA752482BFAB009F23BA /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				87C4BA742482BFAB009F23BA /* IDK.app */,
+				87C4BA742482BFAB009F23BA /* MovieMagic.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -132,17 +138,16 @@
 		87C4BA762482BFAB009F23BA /* MLH Rookie hacks */ = {
 			isa = PBXGroup;
 			children = (
-				87CFF1402483C44300B5DBC5 /* MoviesDataset.json */,
-				87384C1C2483A6AC002C51F8 /* movies.csv */,
-				87C4BA772482BFAB009F23BA /* AppDelegate.swift */,
-				871A51BA248385560026D2E8 /* MovieRecommender.mlmodel */,
-				87C4BA792482BFAB009F23BA /* SceneDelegate.swift */,
-				87C4BA7B2482BFAB009F23BA /* MovieQuestionsVC.swift */,
-				87384C1824839995002C51F8 /* MovieRecommendationsVC.swift */,
+				87CFF1442483F65300B5DBC5 /* Delegates */,
+				87CFF1422483F62100B5DBC5 /* Datasets */,
+				87CFF1432483F63100B5DBC5 /* VC */,
+				87D3BDAA24861F7800D3E662 /* SegueIdentifiers.swift */,
+				87384C1A24839C06002C51F8 /* MoviePredictionCell.swift */,
+				8784BCE724853C2300F57920 /* Extensions.swift */,
 				87C4BA7D2482BFAB009F23BA /* Main.storyboard */,
-				87384C1A24839C06002C51F8 /* PredictionCell.swift */,
-				87C4BA802482BFB3009F23BA /* Assets.xcassets */,
 				87C4BA822482BFB3009F23BA /* LaunchScreen.storyboard */,
+				871A51BA248385560026D2E8 /* MovieRecommender.mlmodel */,
+				87C4BA802482BFB3009F23BA /* Assets.xcassets */,
 				87C4BA852482BFB3009F23BA /* Info.plist */,
 				87C4BA8B2482C5AC009F23BA /* Custom Views */,
 			);
@@ -158,6 +163,34 @@
 			path = "Custom Views";
 			sourceTree = "<group>";
 		};
+		87CFF1422483F62100B5DBC5 /* Datasets */ = {
+			isa = PBXGroup;
+			children = (
+				87CFF1402483C44300B5DBC5 /* MoviesDataset.json */,
+			);
+			path = Datasets;
+			sourceTree = "<group>";
+		};
+		87CFF1432483F63100B5DBC5 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				87C4BA7B2482BFAB009F23BA /* MovieQuestionsVC.swift */,
+				87384C1824839995002C51F8 /* MovieRecommendationsVC.swift */,
+				87DE415724853871009B9D51 /* GenreVsSurpVC.swift */,
+				8784BCE924853DF500F57920 /* GenreSelectionVC.swift */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		87CFF1442483F65300B5DBC5 /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				87C4BA772482BFAB009F23BA /* AppDelegate.swift */,
+				87C4BA792482BFAB009F23BA /* SceneDelegate.swift */,
+			);
+			path = Delegates;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -165,11 +198,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 87C4BA882482BFB3009F23BA /* Build configuration list for PBXNativeTarget "MLH Rookie hacks" */;
 			buildPhases = (
-				FB5585A63117EAFAF10D04C5 /* [CP] Check Pods Manifest.lock */,
+				180537223122F749198B9B88 /* [CP] Check Pods Manifest.lock */,
 				87C4BA702482BFAB009F23BA /* Sources */,
 				87C4BA712482BFAB009F23BA /* Frameworks */,
 				87C4BA722482BFAB009F23BA /* Resources */,
-				6241D39A0048C75CAAE03061 /* [CP] Embed Pods Frameworks */,
+				CA316DD60A6900C2287ABBF1 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -177,7 +210,7 @@
 			);
 			name = "MLH Rookie hacks";
 			productName = "MLH Rookie hacks";
-			productReference = 87C4BA742482BFAB009F23BA /* IDK.app */;
+			productReference = 87C4BA742482BFAB009F23BA /* MovieMagic.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -219,7 +252,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				87384C1324839575002C51F8 /* OpenSans-Italic.ttf in Resources */,
-				87384C1D2483A6AC002C51F8 /* movies.csv in Resources */,
 				87384C1524839575002C51F8 /* OpenSans-ExtraBold.ttf in Resources */,
 				87384C1024839575002C51F8 /* OpenSans-Light.ttf in Resources */,
 				87C4BA842482BFB3009F23BA /* LaunchScreen.storyboard in Resources */,
@@ -239,24 +271,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		6241D39A0048C75CAAE03061 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-MLH Rookie hacks/Pods-MLH Rookie hacks-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-MLH Rookie hacks/Pods-MLH Rookie hacks-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MLH Rookie hacks/Pods-MLH Rookie hacks-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		FB5585A63117EAFAF10D04C5 /* [CP] Check Pods Manifest.lock */ = {
+		180537223122F749198B9B88 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -278,6 +293,23 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		CA316DD60A6900C2287ABBF1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MLH Rookie hacks/Pods-MLH Rookie hacks-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MLH Rookie hacks/Pods-MLH Rookie hacks-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MLH Rookie hacks/Pods-MLH Rookie hacks-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -285,10 +317,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				87384C1B24839C06002C51F8 /* PredictionCell.swift in Sources */,
+				87D3BDAB24861F7800D3E662 /* SegueIdentifiers.swift in Sources */,
+				8784BCEA24853DF500F57920 /* GenreSelectionVC.swift in Sources */,
+				87384C1B24839C06002C51F8 /* MoviePredictionCell.swift in Sources */,
 				87C4BA7C2482BFAB009F23BA /* MovieQuestionsVC.swift in Sources */,
 				871A51BB248385560026D2E8 /* MovieRecommender.mlmodel in Sources */,
+				87DE415824853871009B9D51 /* GenreVsSurpVC.swift in Sources */,
 				87C4BA782482BFAB009F23BA /* AppDelegate.swift in Sources */,
+				8784BCE824853C2300F57920 /* Extensions.swift in Sources */,
 				87C4BA7A2482BFAB009F23BA /* SceneDelegate.swift in Sources */,
 				87384C1924839995002C51F8 /* MovieRecommendationsVC.swift in Sources */,
 				87C4BA912482CDC1009F23BA /* ShadowView.swift in Sources */,
@@ -434,17 +470,18 @@
 		};
 		87C4BA892482BFB3009F23BA /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D8E2B320FFCE597E7103A50C /* Pods-MLH Rookie hacks.debug.xcconfig */;
+			baseConfigurationReference = 24156DACFF175B97E1571297 /* Pods-MLH Rookie hacks.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8HT35697U5;
 				INFOPLIST_FILE = "MLH Rookie hacks/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.PS.MLH-Rookie-hacks";
-				PRODUCT_NAME = IDK;
+				PRODUCT_NAME = MovieMagic;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -452,17 +489,18 @@
 		};
 		87C4BA8A2482BFB3009F23BA /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5B7C91C6730144A77CEB774F /* Pods-MLH Rookie hacks.release.xcconfig */;
+			baseConfigurationReference = CC03FE976EEF855D249C0A8A /* Pods-MLH Rookie hacks.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8HT35697U5;
 				INFOPLIST_FILE = "MLH Rookie hacks/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.PS.MLH-Rookie-hacks";
-				PRODUCT_NAME = IDK;
+				PRODUCT_NAME = MovieMagic;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
